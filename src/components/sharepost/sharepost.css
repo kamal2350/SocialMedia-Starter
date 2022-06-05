@@ -1,0 +1,12 @@
+ .sharepost{
+     display: flex;
+     background-color: var(--cardColor);
+     border-radius: 1rem;
+     gap: 1rem;
+     padding: 1 rem;
+ }
+ .sharepost>img{
+     width: 3rem;
+     height: 3rem;
+     border-radius: 50%;
+ }
