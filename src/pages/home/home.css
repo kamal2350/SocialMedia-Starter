@@ -5,3 +5,12 @@
     z-index: 9;
  
 }
+.profileSide{
+    flex:3;
+}
+.postSide{
+    flex: 1;
+}
+.rightSide{
+  flex: 2;
+}
