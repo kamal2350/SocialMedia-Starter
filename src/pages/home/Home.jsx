@@ -1,6 +1,7 @@
 import React, { Component, Profiler } from 'react'
 import PostSide from '../../components/postside/PostSide';
 import ProfileSide from '../../components/profileSide/ProfileSide';
+import RightSide from '../../components/rightSide/RightSide';
 
 import './home.css'
 class Home extends React.Component{
@@ -11,7 +12,7 @@ class Home extends React.Component{
                 <ProfileSide/>
             </div>
             <div className="postSide"><PostSide/></div>
-            <div className="rightSide">RightSide</div>
+            <div className="rightSide"><RightSide/></div>
             </div>
         )
     }
